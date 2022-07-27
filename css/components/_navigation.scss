@@ -1,3 +1,21 @@
+section.toolbar {
+    background-color: #E59500;
+    display: flex;
+    justify-content: end;
+    padding: .2em 1em;
+
+    #tools {
+        display: flex;
+        font-family: sans-serif;
+        gap: 1em;
+
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+}
+
 nav.navbar {
     align-items: center;
     background-color: #002642;
@@ -10,6 +28,10 @@ nav.navbar {
         font-family: sans-serif;
         font-weight: bold;
         font-size: 2em;
+
+        #registered {
+            position: absolute;
+        }
     }
 
     ul#nav {
@@ -26,6 +48,12 @@ nav.navbar {
             font-family: sans-serif;
             text-decoration: none;
             padding: 0 1em;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            text-decoration-thickness: .1em;
+            text-underline-offset: .35em;
         }
     }
 }

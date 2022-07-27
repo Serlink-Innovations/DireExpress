@@ -1,3 +1,19 @@
+section.toolbar {
+  background-color: #E59500;
+  display: flex;
+  justify-content: end;
+  padding: 0.2em 1em;
+}
+section.toolbar #tools {
+  display: flex;
+  font-family: sans-serif;
+  gap: 1em;
+}
+section.toolbar #tools a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 nav.navbar {
   align-items: center;
   background-color: #002642;
@@ -10,6 +26,10 @@ nav.navbar #logo {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 2em;
+}
+nav.navbar #brand #registered,
+nav.navbar #logo #registered {
+  position: absolute;
 }
 nav.navbar ul#nav {
   display: flex;
@@ -24,6 +44,11 @@ nav.navbar ul#nav a {
   font-family: sans-serif;
   text-decoration: none;
   padding: 0 1em;
+}
+nav.navbar ul#nav a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.35em;
 }
 
 /* Box sizing rules */
