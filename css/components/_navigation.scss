@@ -20,6 +20,8 @@ nav.navbar {
     align-items: center;
     background-color: #002642;
     display: flex;
+    padding-top: .8em;
+    padding-bottom: .8em;
     justify-content: space-around;
 
     #brand,
@@ -36,6 +38,8 @@ nav.navbar {
 
     ul#nav {
         display: flex;
+        margin: 0;
+        padding: 0;
 
         li {
             list-style: none;
@@ -52,7 +56,7 @@ nav.navbar {
 
         a:hover {
             text-decoration: underline;
-            text-decoration-thickness: .1em;
+            //text-decoration-thickness: .1em;
             text-underline-offset: .35em;
         }
     }
