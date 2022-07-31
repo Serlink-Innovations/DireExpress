@@ -11,6 +11,7 @@ section.toolbar #tools {
 }
 section.toolbar #tools a {
   color: #FFFFFF;
+  font-size: 0.95em;
   text-decoration: none;
 }
 
@@ -28,10 +29,7 @@ nav.navbar #logo {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 2em;
-}
-nav.navbar #brand #registered,
-nav.navbar #logo #registered {
-  position: absolute;
+  max-height: 30px;
 }
 nav.navbar ul#nav {
   display: flex;
@@ -45,13 +43,14 @@ nav.navbar ul#nav li {
 nav.navbar ul#nav a {
   color: #FFFFFF;
   display: flex;
+  font-size: 0.95em;
   font-family: sans-serif;
   text-decoration: none;
   padding: 0 1em;
 }
 nav.navbar ul#nav a:hover {
   text-decoration: underline;
-  text-underline-offset: 0.35em;
+  text-underline-offset: 0.3em;
 }
 
 /* Box sizing rules */
